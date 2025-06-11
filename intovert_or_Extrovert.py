@@ -4,7 +4,7 @@ import pandas as pd
 
 # Load the trained model
 try:
-    with open(r'C:\pythonProject5\Introvert_or_Extrovert1.pkl', 'rb') as f:
+    with open(r'Introvert_or_Extrovert1.pkl', 'rb') as f:
         model = pickle.load(f)
 except Exception as e:
     st.error(f"Error loading model: {str(e)}")
